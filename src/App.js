@@ -1,11 +1,7 @@
 import { createTheme, ThemeProvider } from "@mui/material";
-import { onAuthStateChanged } from "firebase/auth";
 import React, { useEffect, useState } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Home from "./Components/Home";
-import Loader from "./Components/Loader";
 import Login from "./Components/Login";
-import { auth } from "./config/firebase-config";
 import CommonRoute from "./routes/CommonRoute";
 import colors from "./theme/colors";
 

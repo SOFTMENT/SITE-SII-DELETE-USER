@@ -1,7 +1,8 @@
 {
-  "name": "mind-motivation-manage-user",
+  "name": "site-sii-manage-user",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/delete-account/sitesii/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

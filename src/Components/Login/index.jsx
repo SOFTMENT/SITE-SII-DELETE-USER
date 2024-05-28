@@ -114,10 +114,10 @@ const Login = () => {
                 <CardMedia
                     component={"img"}
                     src={images.logo}
-                    sx={{objectFit: "contain",height:"60px",width:"60px",borderRadius:"5px"}}
+                    sx={{objectFit: "contain",height:"100px",width:"100px",borderRadius:"5px"}}
                 />
-                <Typography sx={{ fontSize: "24px", color: "#0D1C2E", fontWeight: "900", fontStyle: "normal",marginLeft:"20px"}}>
-                   Mind Motivations
+                <Typography sx={{ fontSize: "24px", color: "#0D1C2E", fontWeight: "900", fontStyle: "normal"}}>
+                   SiteSii
                 </Typography>
                 
                 </Stack>
@@ -195,14 +195,14 @@ const Login = () => {
                                 sx={{objectFit: "contain",height:"30px",width:"30px",borderRadius:"5px"}}
                             />
                         </IconButton>
-                        <IconButton>
+                        {/* <IconButton>
                             <CardMedia
                                 onClick={appleSignin}
                                 component={"img"}
                                 src={images.apple}
                                 sx={{objectFit: "contain",height:"30px",width:"30px",borderRadius:"5px"}}
                             />
-                        </IconButton>
+                        </IconButton> */}
                         {/* <IconButton>
                             <CardMedia
                                 component={"img"}
